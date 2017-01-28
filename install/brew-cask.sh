@@ -22,6 +22,7 @@ apps=(
   firefox
   google-chrome
   iterm2
+  opera
   reaper
   slack
   spotify

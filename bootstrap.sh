@@ -6,10 +6,10 @@ mkdir -p ~/bin
 source ./install/brew.sh
 source ./install/brew-utilities.sh
 source ./install/brew-cask.sh
-source ./install/ruby.sh
 source ./install/node.sh
 source ./install/npm.sh
 source ./install/fonts.sh
+source ./install/mackup.sh
 
 for app in "Activity Monitor" "cfprefsd" \
   "Dock" "Finder" "Google Chrome" "Messages" \
