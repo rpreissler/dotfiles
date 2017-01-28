@@ -10,10 +10,11 @@ packages=(
   eslint
   grunt-cli
   gulp-cli
-  hicat
   html-minifier
   init-module
   less
+  mlb-cli
+  nhl-cli
   nodemon
   npm-check
   npm-release
