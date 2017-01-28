@@ -12,54 +12,20 @@ e_arrow "Installing cask apps"
 
 apps=(
   1password
-  alfred2
-  android-file-transfer
+  adobe-creative-cloud
+  alfred
   appcleaner
-  atom
   bartender
-  beamer
-  cyberduck
-  daisydisk
-  discord
-  docker
+  caffeine
   dropbox
-  filebot
+  evernote
   firefox
-  flux
-  gitify
   google-chrome
-  hyper
-  imageoptim
-  insomnia
-  istat-menus
   iterm2
-  java
-  kap
-  macid
-  minecraft
-  musicbrainz-picard
-  openemu
-  phoneexpander
-  piezo
-  qlmarkdown
-  qlstephen
-  qlimagesize
-  rocket
-  skype
-  slack-beta
-  spectacle
+  reaper
+  slack
   spotify
-  stay
-  steam
   sublime-text
-  teamviewer
-  transmission
-  unetbootin
-  vagrant
-  vagrant-manager
-  vlc
-  virtualbox
-  zoomus
 )
 
 brew cask install --appdir="~/Applications" ${apps[@]}
