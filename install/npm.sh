@@ -2,8 +2,33 @@
 
 source ./utils.sh
 
-e_header "Installing Audacity"
+e_header "Installing npm modules"
 
-wget https://www.fosshub.com/Audacity.html/audacity-macosx-ub-2.1.2.dmg
+packages=(
+  create-react-app
+  csslint
+  eslint
+  grunt-cli
+  gulp-cli
+  html-minifier
+  init-module
+  less
+  mlb-cli
+  nhl-cli
+  nginx
+  nodemon
+  npm-check
+  npm-release
+  sassysass
+  speed-test
+  svgo
+  tv-schedule
+  uglifycss
+  uglify-js
+)
+
+npm install -g ${packages[@]}
+npm config set save true
+npm set init-module $(init-module --path)
 
 e_success "Done!"
