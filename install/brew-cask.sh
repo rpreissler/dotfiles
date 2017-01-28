@@ -17,6 +17,7 @@ apps=(
   appcleaner
   bartender
   caffeine
+  charles
   dropbox
   evernote
   firefox

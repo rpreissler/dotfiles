@@ -16,6 +16,7 @@ source ./install/node.sh
 source ./install/npm.sh
 source ./install/fonts.sh
 source ./install/mackup.sh
+source ./install/audacity.sh
 
 for app in "Activity Monitor" "cfprefsd" \
   "Dock" "Finder" "Google Chrome" "Messages" \
