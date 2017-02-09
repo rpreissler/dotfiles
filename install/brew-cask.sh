@@ -30,7 +30,7 @@ apps=(
   sublime-text
 )
 
-brew cask install --appdir="~/Applications" ${apps[@]}
+brew cask install --appdir="Applications" ${apps[@]}
 brew cask cleanup
 
 e_arrow "Setting Google Chrome as the default browser"

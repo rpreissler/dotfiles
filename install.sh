@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 
 # Make the user-relative bin folder to install things to
