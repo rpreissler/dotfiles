@@ -7,4 +7,7 @@ e_header "Installing Audacity"
 wget https://www.fosshub.com/Audacity.html/audacity-macosx-ub-2.1.2.dmg
 rm -r audacity-macosx-ub-2.1.2.dmg
 
+wget https://www.fosshub.com/Audacity.html/audacity-macosx-ub-2.1.2.dmg -P ~/Downloads/
+open ~/Downloads/audacity-macosx-ub-2.1.2.dmg
+
 e_success "Done!"
