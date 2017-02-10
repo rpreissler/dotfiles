@@ -11,6 +11,7 @@ binaries=(
     git
     git-extras
     git-fresh
+    python3
     wget
 )
 
