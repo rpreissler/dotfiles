@@ -14,4 +14,7 @@ nvm alias stable 6
 nvm alias default 6
 nvm use 6
 
+# fix npm permissions
+sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+
 e_success "Done!"
