@@ -5,7 +5,7 @@ source ./utils.sh
 e_header "Installing node, nvm, and npm"
 
 # For more info, see here https://gist.github.com/DanHerbert/9520689
-brew install node --without-npm
+brew install node
 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 . ~/.nvm/nvm.sh > /dev/null
