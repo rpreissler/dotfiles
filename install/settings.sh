@@ -41,3 +41,7 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # Default to list view in Finder windows (others: `icnv`, `clmv`, `Flwv`)
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
+# Secondary click:
+# Possible values: OneButton, TwoButton, TwoButtonSwapped
+defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode -string OneButton
