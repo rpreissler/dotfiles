@@ -19,6 +19,7 @@ packages=(
   nodemon
   npm-check
   npm-release
+  organize-raw
   sassysass
   speed-test
   svgo
