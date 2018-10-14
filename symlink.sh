@@ -17,3 +17,7 @@ ln -s ~/Dropbox/computer-settings/audacity/ ~/Library/Application\ Support/audac
 # Create Symbolic link for Alfred
 echo " Alfred Symbolic Link"
 ln -s ~/Dropbox/computer-settings/Alfred\ 3/ ~/Library/Application\ Support/Alfred\ 3
+
+# Create Symbolic link for Lightroom
+echo " Lightroom Symbolic Link"
+ln -s ~/Dropbox/Lightroom-presets/Develop\ Presets/ ~/Library/Application\ Support/Adobe/Lightroom\ CC/
