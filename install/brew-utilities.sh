@@ -4,6 +4,8 @@ source ./utils.sh
 
 e_header "Installing brew utilities"
 
+echo "Installing brew utilities"
+
 binaries=(
     bash
     cmake

@@ -4,6 +4,8 @@ source ./utils.sh
 
 e_header "Installing node, nvm, and npm"
 
+echo "Installing node, nvm, and npm"
+
 # For more info, see here https://gist.github.com/DanHerbert/9520689
 brew install node
 

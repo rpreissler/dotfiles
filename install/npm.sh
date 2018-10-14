@@ -4,6 +4,8 @@ source ./utils.sh
 
 e_header "Installing npm modules"
 
+echo " Installing npm modules"
+
 packages=(
   create-react-app
   csslint
