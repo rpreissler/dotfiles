@@ -60,6 +60,10 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode -
 echo " Avoid creating .DS_Store files on network volumes"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
+# Change hostname
+echo " Change hostname"
+sudo scutil --set HostName rburgess
+
 echo " Hot corners"
 # Possible values:
 #  0: no-op
