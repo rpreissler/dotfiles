@@ -60,6 +60,11 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode -
 echo " Avoid creating .DS_Store files on network volumes"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
+#Set Default Finder Location to Home Folder
+echo " Set Default Finder Location to Home Folder"
+defaults write com.apple.finder NewWindowTarget -string "PfLo" && \
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
+
 # Change hostname
 echo " Change hostname"
 sudo scutil --set HostName rburgess
