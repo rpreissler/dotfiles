@@ -17,6 +17,7 @@ source ./install/fonts.sh
 source ./install/mackup.sh
 source ./install/audacity.sh
 source ./install/aerial.sh
+source ./install/canon5D.sh
 source ./install/creative-cloud.sh
 
 for app in "Activity Monitor" "cfprefsd" \
